@@ -33,8 +33,6 @@ describe 'The HelloWorld App' do
     get '/set', :somekey => "taco" do
       get '/get', :key => "somekey"
       expect(last_response.body).to include("taco")
-      p last_response.body
     end
   end
-
 end

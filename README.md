@@ -2,8 +2,8 @@
 by Paula Muldoon (Makers Academy remote April 2017 cohort)
 
 ### About
+
 I spent one day working on this senior dev tech test.
----
 
 
 ## The brief

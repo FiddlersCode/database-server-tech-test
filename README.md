@@ -22,19 +22,23 @@ View the repository [here](https://github.com/pmuldoon86/database-server-tech-te
 Clone the repo. Then:
 
 ```bash
+bundle
 ```
 #### To run the tests
 ```bash
+rspec
 ```
 
 ### To view in browser
 ```bash
+from main folder:
+ruby lib/hello_world.rb
 ```
-Then start the server at localhost:
+Then start the server at localhost:4000
 
----
 ---
 ## Technologies used
 
 * [Ruby 2.4.0](https://www.ruby-lang.org/en/)
+* [Sinatra](http://www.sinatrarb.com/)
 * Git for version managing

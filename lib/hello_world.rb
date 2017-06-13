@@ -6,5 +6,5 @@ get '/' do
 end
 
 get '/set' do
-
+  @somekey = params[:somekey]
 end

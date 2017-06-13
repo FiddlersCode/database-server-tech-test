@@ -22,4 +22,10 @@ describe 'The HelloWorld App' do
       expect(last_response.status).to eq(200)
     end
   end
+
+  it 'can store params' do
+    get '/set', :somekey => "taco" do
+      expect(last_response.body).to include("taco")
+    end
+  end
 end

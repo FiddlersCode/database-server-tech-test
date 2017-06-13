@@ -28,4 +28,13 @@ describe 'The HelloWorld App' do
       expect(last_response.body).to include("taco")
     end
   end
+
+  it 'can retrieve params' do
+    get '/set', :somekey => "taco" do
+      get '/get', :key => "somekey"
+      expect(last_response.body).to include("taco")
+      p last_response.body
+    end
+  end
+
 end
